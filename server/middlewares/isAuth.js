@@ -8,7 +8,7 @@ try {
         return res.status(400).json({message:"user does not have a token"})
 
     }
-    const verifyToken=jwt.verify(token,process.env.JWT_SECRET)
+    const verifyToken=jwt.verify(token,process.env.JWTSECRET)
     if(!verifyToken){
 return res.status(400).json({message:"user does not have a valid token"})
     }
