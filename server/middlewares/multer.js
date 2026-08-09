@@ -5,8 +5,8 @@ const storage=multer.diskStorage({
     destination:function(req,file,cb){
         cb(null,"public")
     },
-    filename:function(req,file,db){
-        const filename=DataTransfer.now()+"-"+file.originalname;
+    filename:function(req,file,cb){
+        const filename = Date.now() + "-" + file.originalname;
         cb(null,filename)
     }
 })

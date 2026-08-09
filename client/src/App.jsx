@@ -7,6 +7,8 @@ import axios from 'axios'
 import { linkWithCredential } from 'firebase/auth'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice'
+import InterviewPage from './pages/InterviewPage'
+import InterviewReport from './pages/InterviewReport' 
 
 export const ServerUrl="http://localhost:8000"
 
@@ -29,6 +31,7 @@ getUser()
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/auth' element={<Auth />} />
+      <Route path='/interview' element={<InterviewPage />} />
     </Routes>
   )
 }
