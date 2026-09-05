@@ -161,6 +161,7 @@ Question 3 → medium
 Question 4 → medium  
 Question 5 → hard  
 
+
 Make questions based on the candidate’s role, experience,interviewMode, projects, skills, and resume details.
 `
       }
