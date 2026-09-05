@@ -3,6 +3,7 @@
 An AI-powered interview preparation platform that simulates real interview experiences using AI-generated questions, voice interaction, resume analysis, performance evaluation, and interview history.
 
 The platform allows users to upload their resume, practice AI-driven interviews, receive detailed performance feedback, and track their interview progress over time.
+live demo:https://interview-ai-wv9j.onrender.com
 
 ---
 
