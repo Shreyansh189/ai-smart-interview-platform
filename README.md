@@ -244,10 +244,11 @@ Verifies the payment and updates user credits.
 
 The platform currently provides the following credit plans:
 
-Plan	Price	Credits
-Free	₹0	100
-Starter Pack	₹100	150
-Pro Pack	₹500	650
+Plan	         Price	Credits
+Free	          ₹0	    100
+Starter Pack	  ₹100	150
+Pro Pack	      ₹500	650
+
 🌐 Deployment
 
 The application is deployed using Render.
