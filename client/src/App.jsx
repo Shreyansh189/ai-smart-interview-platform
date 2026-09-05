@@ -13,7 +13,7 @@ import InterviewHistory from "./pages/InterviewHistory";
 import Pricing from './pages/Pricing'
 
 
-export const ServerUrl="http://localhost:8000"
+export const ServerUrl="https://ai-smart-interview-platform-zjwu.onrender.com"
 
 function App() {
   const dispatch=useDispatch()
